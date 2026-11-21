@@ -181,7 +181,7 @@ def main():
     positive = [a, b]
     negative = [c]
     results = nearest_nouns(model, positive, negative)
-    print("найденная кобинация:")
+    print("найденная комбинация:")
     print(f"{clean(a)} + {clean(b)} - {clean(c)}")
     print("\nтоп-10 ближайших соседей:")
     for rank, (word, score) in enumerate(results, 1):
